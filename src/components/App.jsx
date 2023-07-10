@@ -1,16 +1,9 @@
+import React, { Component } from 'react';
+import shortid from 'shortid';
+import s from './App.module.css';
+import ContactList from './ContactList/ContactList';
+import ContactForm from './ContactForm';
+
 export const App = () => {
-  return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
-    >
-      React homework template
-    </div>
-  );
+  return <div>React homework template</div>;
 };
